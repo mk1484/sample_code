@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
@@ -45,7 +45,7 @@ foreach ($news as $value) {
   echo "<td>{$value['updated_at']}</td>";
   echo "</tr>";
   //echo $value['article'] ."\n";
-  //echo $value['categry'] ."\n";
+  //abcecho $value['categry'] ."\n";
   //echo $value['created_at'] ."\n";
   //echo $value['deleted_at'] ."\n";
   //echo $value['appointment_at'] ."\n";
@@ -60,5 +60,7 @@ echo $stmt->rowCount() . "records found.";
   exit;
 }
 ?>
+
+aaaaa
 </body>
 </html>
